@@ -1,0 +1,15 @@
+# Archivos temporales y de sistema
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Archivos de configuración local y borrador
+.vscode/
+*.bak
+*.swp
+Nuevo Documento de texto.txt
+
+# Carpetas de dependencias (por si usas paquetes en el futuro)
+node_modules/
+dist/

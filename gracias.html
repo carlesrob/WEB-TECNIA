@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Recibida - Tecnia Gabinete Industrial</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem;
+        }
+
+        .thank-you-card {
+            background: #ffffff;
+            max-width: 520px;
+            width: 100%;
+            padding: 3rem 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+            border: 1px solid #e2e8f0;
+            text-align: center;
+        }
+
+        .icon-wrapper {
+            width: 72px;
+            height: 72px;
+            background-color: #eff6ff;
+            color: #2563eb;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .icon-wrapper svg {
+            width: 36px;
+            height: 36px;
+            stroke-width: 2.2;
+        }
+
+        h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #0f172a;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            color: #64748b;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        .btn-home {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            background-color: #2563eb;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 0.85rem 1.75rem;
+            border-radius: 0.5rem;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+        }
+
+        .btn-home:hover {
+            background-color: #1d4ed8;
+        }
+
+        .btn-home:active {
+            transform: scale(0.98);
+        }
+
+        .btn-home svg {
+            width: 18px;
+            height: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="thank-you-card">
+        <div class="icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+            </svg>
+        </div>
+
+        <h1>¡Consulta enviada con éxito!</h1>
+        <p>Gracias por contactar con <strong>Tecnia Gabinete Industrial S.L.P.</strong> Hemos recibido su mensaje correctamente. Nuestro equipo técnico revisará su proyecto y le responderá a la mayor brevedad posible.</p>
+
+        <a href="index.html" class="btn-home">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+            </svg>
+            Volver a la página principal
+        </a>
+    </div>
+
+</body>
+</html>
